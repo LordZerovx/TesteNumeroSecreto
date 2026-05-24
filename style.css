@@ -1,0 +1,60 @@
+body {
+    background: radial-gradient(#4B0082, black);
+}
+
+#corpoPrincipal {
+    /*display: grid;
+    place-items: center;
+    -ms-grid-column-align: center;
+    padding: 150px;
+    font-weight: 10px;
+    font-size: 15px;
+    height: 200px;
+    max-block-size: 50%;
+    display: grid;
+    grid-template-columns: max-content;
+    align-items: center;
+    justify-content: center;
+    width: 100px;*/
+    display: grid;
+    grid-template-columns: 300px;
+    align-items: start;
+    justify-content: space-between;
+    align-self: center;
+    justify-content: center;
+    padding: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 20px;
+}
+
+#textoTeste{
+    color: antiquewhite;
+    font-size: 30px;
+    text-shadow: 2px 2px 2px black;
+}
+
+#resposta{
+    color: black;
+    border: solid black 2px;
+    border-radius: 5px;
+    font-size: 20px;
+    box-shadow: 2px 2px 5px black;
+}
+
+#enviar{
+    color: aliceblue;
+    background-color: #4B0082;
+    border: solid black 2px;
+    border-radius: 5px;
+    font-size: 20px;
+    box-shadow: 2px 2px 5px black;
+}
+
+#reiniciar{
+    color: aliceblue;
+    background-color: #4B0082;
+    border: solid black 2px;
+    border-radius: 5px;
+    font-size: 20px;
+    box-shadow: 2px 2px 5px black;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Número Secreto</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body id="container">  
+
+        <div id="corpoPrincipal">
+        <h1 id="textoTeste">Descubra o número secreto em 5 tentativas</h1>
+        <input id="resposta" placeholder="Tente a Sorte"></input>
+        
+        <button onclick="verificarResposta()" id="enviar">Enviar</button>
+        
+        <button onclick="reiniciarJogo()" id="reiniciar">Reiniciar</button>
+        </div>
+        
+
+        <div>
+            <h1 id="textoPrincipal"></h1>
+            <h1 id="textoSecundario"></h1>
+        </div>
+        
+
+        <script src="app.js"></script>
+    </body>
+</html>
